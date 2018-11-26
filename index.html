@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    HolidayMap
+  </title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents/cssmap-continents.css" media="screen" />
+
+
+<link rel='stylesheet' type='text/css' href='CSS/main.css'>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MyMap</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">EUROPE</a></li>
+          <li><a href="#">ASIA</a></li>
+          <li><a href="#">AMERICA</a></li>
+          <li><a href="#">AFRICA</a></li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+<h1 id="top-header"> Explore the World at your fingertips! </h1>
+<div class= 'container' id="img-container">
+  <div class= 'row' id="img-row">
+    <div class= 'col-md-3'>
+      <a href="europe.html"><img src= 'Images/europe1.jpg' class='img-circle'/></a>
+    </div>
+    <div class= 'col-md-3'>
+      <a href="africa.html"><img src= 'Images/africa.jpg' class='img-circle'/></a>
+    </div>
+    <div class= 'col-md-3'>
+      <a href="asia.html"><img src= 'Images/asia.jpg' class='img-circle'/></a>
+    </div>
+    <div class= 'col-md-3'>
+      <a href="america.html"><img src= 'Images/america.jpg' class='img-circle'/></a>
+    </div>
+  </div>
+</div>
+
+<!-- CSSMap - Continents -->
+<div id="map-continents">
+ <ul class="continents">
+  <li class="c1"><a href="africa.html">Africa</a></li>
+  <li class="c2"><a href="asia.html">Asia</a></li>
+  <li class="c3"><a href="#">Australia</a></li>
+  <li class="c4"><a href="europe.html">Europe</a></li>
+  <li class="c5"><a href="america.html">North America</a></li>
+  <li class="c6"><a href="america.html">South America</a></li>
+ </ul>
+</div>
+<!-- END OF THE CSSMap - Continents -->
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- CSSMap SCRIPT -->
+<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 1450
+});
+// END OF THE CSSMap;
+
+});
+</script>
+</body>
+
+</html>
