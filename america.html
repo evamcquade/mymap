@@ -33,10 +33,10 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">HOME</a></li>
+          <li ><a href="index.html">HOME</a></li>
           <li><a href="europe.html">EUROPE</a></li>
           <li><a href="asia.html">ASIA</a></li>
-          <li><a href="america.html">AMERICA</a></li>
+          <li class="active"><a href="america.html">AMERICA</a></li>
           <li><a href="africa.html">AFRICA</a></li>
 
         </ul>
@@ -55,10 +55,34 @@
 <li>Don't forget to keep your eyes peeled </li>
 <li>for the famous drive-thru's! See below!</li>
 </ul>
-<img src= "Images/drivethru.jpg" width="960" height="600" id= drivethru>
 
 
-<iframe src="https://giphy.com/embed/ekRaXuI4tCGOs" width="480" height="369" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-shuffle-cuckold-ekRaXuI4tCGOs">via GIPHY</a></p>
+<img src= "Images/drivethru.jpg" width="800" height="500" id= drivethru>
+<iframe src="https://giphy.com/embed/ekRaXuI4tCGOs" width="240" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a </a></p>
+  <div class="container">
+  <form action="action_page.php">
+  <h2> Get in touch... Tell us your travel stories! </h2>
+   <label for="fname">First Name</label>
+   <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+   <label for="lname">Last Name</label>
+   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   <label for="country">Country</label>
+   <select id="country" name="country">
+     <option value="australia">USA</option>
+     <option value="canada">Europe</option>
+     <option value="usa">Asia</option>
+     <option value="usa">Africa</option>
+   </select>
+
+   <label for="subject">Travel Story</label>
+   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+   <input type="submit" value="Submit">
+
+  </form>
+  </div>
 
 
 </body>

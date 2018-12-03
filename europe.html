@@ -33,8 +33,8 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">HOME</a></li>
-          <li><a href="europe.html">EUROPE</a></li>
+          <li ><a href="index.html">HOME</a></li>
+          <li class="active"><a href="europe.html">EUROPE</a></li>
           <li><a href="asia.html">ASIA</a></li>
           <li><a href="america.html">AMERICA</a></li>
           <li><a href="africa.html">AFRICA</a></li>
@@ -57,6 +57,10 @@
   <li>Over 24 languages are spoken in Europe! </li>
   <li>Here's how to say hello in five of them: </li>
   <li>Hola! Bonjour! Hallo! Ciao! Ola! </li>
+  <li> Population: about 740 million. </li>
+<li> Land Area: 9,908,600 square kilometres </li>
+<li> Size: about a third of the size of Africa. </li>
+<li> Countries: 46 countries </li>
   </ul>
 
   <div class= 'container' id="img-container2">
@@ -70,10 +74,37 @@
       <div class= 'col-md-3'>
         <a href="0"><img src= 'https://cdn.londonandpartners.com/-/media/images/london/visit/london-organisations/tower-bridge-exhibition/tower-bridge-homepage-image.jpg?mw=1920&hash=E19E0136A57855A8ED61B4E66EA72F1646CA8DAC' class='img-circle'/></a>
       </div>
-
+      <div class= 'col-md-3'>
+        <a href="0"><img src= 'https://i.gocollette.com/img/destination-page/europe/europe-continent/europe-ms3.jpg?h=720&w=1280&la=en-GB' class='img-circle'/></a>
+      </div>
       </div>
     </div>
   </div>
+
+  <div class="container">
+ <form action="action_page.php">
+<h2> Get in touch... Tell us your travel stories! </h2>
+   <label for="fname">First Name</label>
+   <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+   <label for="lname">Last Name</label>
+   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   <label for="country">Country</label>
+   <select id="country" name="country">
+     <option value="australia">USA</option>
+     <option value="canada">Europe</option>
+     <option value="usa">Asia</option>
+     <option value="usa">Africa</option>
+   </select>
+
+   <label for="subject">Travel Story</label>
+   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+   <input type="submit" value="Submit">
+
+ </form>
+</div>
 
 </body>
 </html>

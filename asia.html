@@ -33,9 +33,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">HOME</a></li>
+          <li ><a href="index.html">HOME</a></li>
           <li><a href="europe.html">EUROPE</a></li>
-          <li><a href="asia.html">ASIA</a></li>
+          <li class="active"><a href="asia.html">ASIA</a></li>
           <li><a href="america.html">AMERICA</a></li>
           <li><a href="africa.html">AFRICA</a></li>
 
@@ -49,12 +49,35 @@
     <h1><strong>From Idyllic Beaches to Stunning Temples</strong></h1>
 
     <h2>From the nomadic steppes of Kazakhstan to the frenetic streets of Hanoi, Asia is a continent so full of intrigue, adventure, solace and spirituality that it has fixated and confounded travellers for centuries.</h2>
-    <p><strong>Hong Kong</strong></p>
-      <img src="https://www.abercrombiekent.com/-/media/ak/hero-images/asia-china-hong-kong-skyline.jpg?h=500&w=1224&la=en&hash=B9F77AEC6E3B9A35850538C3067588A0D9A32B67" alt="Hong Kong">
 
-    <h3><strong>Tokyo</strong></h3>
-      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/10/13/tokyo-main.jpg?w968" alt="Tokyo">
+      <img src="https://www.abercrombiekent.com/-/media/ak/hero-images/asia-china-hong-kong-skyline.jpg?h=500&w=1224&la=en&hash=B9F77AEC6E3B9A35850538C3067588A0D9A32B67" alt="Hong Kong" width="480" height="270">
 
+      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/10/13/tokyo-main.jpg?w968" alt="Tokyo" width="480" height="270">
+
+      <div class="container">
+      <form action="action_page.php">
+      <h2> Get in touch... Tell us your travel stories! </h2>
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+       <label for="country">Country</label>
+       <select id="country" name="country">
+         <option value="australia">USA</option>
+         <option value="canada">Europe</option>
+         <option value="usa">Asia</option>
+         <option value="usa">Africa</option>
+       </select>
+
+       <label for="subject">Travel Story</label>
+       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+       <input type="submit" value="Submit">
+
+      </form>
+      </div>
 
 
   </body>

@@ -33,11 +33,11 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">HOME</a></li>
+          <li ><a href="index.html">HOME</a></li>
           <li><a href="europe.html">EUROPE</a></li>
           <li><a href="asia.html">ASIA</a></li>
           <li><a href="america.html">AMERICA</a></li>
-          <li><a href="africa.html">AFRICA</a></li>
+          <li class="active"><a href="africa.html">AFRICA</a></li>
 
         </ul>
 
@@ -59,8 +59,32 @@
 </ul>
 
 <img src= "Images/big5.jpeg" width="960" height="600" id= bigfive>
-<iframe src="https://giphy.com/embed/8fu6uGQYeAkms" width="480" height="365" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a id= "antelope" href="https://giphy.com/gifs/funny-cute-gazelle-8fu6uGQYeAkms">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/8fu6uGQYeAkms" width="480" height="365" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a </a></p>
 
+<div class="container">
+<form action="action_page.php">
+<h2> Get in touch... Tell us your travel stories! </h2>
+ <label for="fname">First Name</label>
+ <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+ <label for="lname">Last Name</label>
+ <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+ <label for="country">Country</label>
+ <select id="country" name="country">
+   <option value="australia">USA</option>
+   <option value="canada">Europe</option>
+   <option value="usa">Asia</option>
+   <option value="usa">Africa</option>
+ </select>
+
+ <label for="subject">Travel Story</label>
+ <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+ <input type="submit" value="Submit">
+
+</form>
+</div>
 
 
     </body>
