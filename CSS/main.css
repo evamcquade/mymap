@@ -5,14 +5,22 @@ background-color: white;
 font-family: 'Chakra Petch', sans-serif;
 }
 h1 {
-  font-size: 40px;
-
+  font-size: 50px;
   color: MediumSeaGreen;
+  padding: 7px;
 }
 
 #top-header{
   width:100%;
   text-align: center;
+  font-size: 70px;
+}
+
+#explore {
+  font-size: 30px;
+  color: grey;
+  text-align: center;
+  padding: 7px;
 }
 
 .img-circle{
@@ -24,6 +32,35 @@ h1 {
   width:100%;
 }
 
+#lion {
+  display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    position: absolute;
+    z-index: -1;
+}
+#europegif{
+  display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    position: absolute;
+    z-index: -1;
+}
+#usa {
+  display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    position: absolute;
+    z-index: -1;
+}
+#paris {
+  display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    position: absolute;
+    z-index: -1;
+}
+
 #img-container{
 
   border-bottom-style:solid;
@@ -33,3 +70,90 @@ h1 {
 #img-row{
   padding-bottom:4%;
 }
+
+#africatitle{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: red;
+  padding-left: 25px;
+  font-size: 100px;
+}
+
+#africadescription {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 10px;
+  color: orange;
+  border: 2px;
+}
+
+#bigfive {
+  padding-top: 70px;
+  padding-left: 70px;
+  margin-left: 0px;
+  }
+
+  #usatitle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: blue;
+    padding-left: 25px;
+    font-size: 100px;
+  }
+
+  #usadescription {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: orange;
+    border: 2px;
+  }
+
+#drivethru {
+  padding-top: 70px;
+  padding-left: 70px;
+  margin-left: 0px;
+}
+
+#coloseum {
+  padding-top: 70px;
+  padding-left: 70px;
+  margin-left: 0px;
+}
+
+
+
+
+#asiatitle {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: yellow;
+  padding-left: 25px;
+  font-size: 100px;
+}
+
+#europetitle {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: green;
+  padding-left: 25px;
+  font-size: 100px;
+}
+#img-container2 {
+  margin-top: 200px;
+}
+
+#fblink {
+  padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+
+</body>
